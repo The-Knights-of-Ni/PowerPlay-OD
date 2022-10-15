@@ -28,3 +28,7 @@ class DarknetBlock(tf.keras.Model):
 		x += input_tensor
 
 		return x
+
+# Make main model
+def create_yolov3():
+	# TODO
